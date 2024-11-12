@@ -1,0 +1,35 @@
+Su empresa se dedica a recibir dispositivos para repararlos. En algunos casos, no
+se puede reparar y deben solicitar un dispositivo nuevo. Cuentan con una base de
+datos muy grande donde se registra el estado de cada componente del dispositivo,
+y un dato final indicando si pudo repararse o si fue necesario solicitar un dispostivo
+nuevo.
+
+Le solicitan que haga y entrene un modelo con esos datos, para que al final se
+ingresen los datos de los componentes, y muestre una predicción indicando si el
+dispostivo puede repararse, o si debe solicitarse uno nuevo.
+
+¿Qué tipo de modelo aplicaría?
+
+R/: Utilizaria el modelo de arbol de decisión
+
+¿Por qué consideras que ese modelo es adecuado?
+
+R/: En mi opinión es el modelo que segun lo dice su nombre, me ayudaria a decidir si un telefono es reparable o no, 
+en base a sus diagramas y a sus "What ifs" que utiliza en base a los datos que se le presenta, se ha hecho mas comodo
+para poder tomar las decisiones de una manera mas fija si tiene los datos suficientes, aunque no siempre tenga un acierto
+perfecto.
+
+¿De qué manera considera que es diferente a la programación regular, para
+este tipo de proyectos?
+
+R/: Este tipo de proyecto se diferencia en el sentido que regularmente los datos que organizamos y vimos en la primera unidad, los 
+generamos manualmente y analizamos. En el caso del Machine Learning, nosotros creamos codigo para que el programa o la computadora 
+pueda realizar ese analisis con nosotros y crear esos arreglos por nosotros, con condiciones que el mismo programador le otorga
+
+¿Por qué cree que los modelos como los vistos en las clases no logran llegar
+a un 100% de respuestas correctas?
+
+R/: Probablemente esto se deba a que es un programa que no es exacto, porque saca conclusiones en base a la informacon que le damos nosotros.
+Esto tambien es dependiente de la cantidad de datos que se le da. Se debe a que, como lo que se ha viso en clase, se utilizan series de ciclos
+que puede ocasionar que el programa deje de aprender, asi que debemos ir analizando la cantidad o el tamaño de test que le podemos dar al programa
+para obtener el mejor resultado posible (en base a la informacion que le damos a nuestro programa).
